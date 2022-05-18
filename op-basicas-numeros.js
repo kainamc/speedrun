@@ -32,3 +32,17 @@ function ePrimo(n){
     }
 }
 
+function ePrimoT(n){
+    let nrDivPerf = 0;
+    let denominador = n;
+
+    while (denominador > 0 ){
+        if (temRestoZero(n,denominador)){
+            nrDivPerf++;
+        }
+        denominador--;
+    }
+    return (nrDivPerf == 2)? true : false;
+    
+}
+
