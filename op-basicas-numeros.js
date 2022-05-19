@@ -46,3 +46,19 @@ function ePrimoT(n){
     
 }
 
+
+
+function multiplicar(a,b){
+    let resultado = 0;
+    let i = b;
+
+
+    while (i>0){
+        resultado += a;
+        i--
+    }
+    console.log(resultado);
+}
+
+let mult = multiplicar(6,3);
+
