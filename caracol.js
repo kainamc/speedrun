@@ -1,5 +1,5 @@
 // the snail Garry is at the bottom of a tower and needs to get out of it, help him!
-// tap three arguments of your choice:
+// type three arguments of your choice:
 // 1 - lenght of the tower
 // 2 - how many meter garry can move before he takes a breath
 // 3 - how many meters he slips while breathing
@@ -19,17 +19,17 @@ console.log(count);
 
 while(count > 0){
 count-=b;
-console.log("Garry moveu-se " + b + "m");
+console.log("Garry moveu-se " + b + "m\n");
 // console.log("Ele está a " + parseInt(count-b) + "m do topo da torre.");
-console.log(count);
+console.log("Garry esta a " + (count + "m") + " do topo.");
 
 if(count <= 0){
     console.log("chegou");
 }else{
     count += c;
-    console.log("Garry escorregou " + c + "m" );
+    console.log("Garry escorregou " + c + "m\n" );
     // console.log("Ele está a " + (count+c) + "m do topo da torre.");
-    console.log(count);
+    console.log("Garry esta a " + count + " do topo.\n");
     }
 }
 
